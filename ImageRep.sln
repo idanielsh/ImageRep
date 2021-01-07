@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{01417492-4696-4133-A5CB-A8F304BBB0A6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{A44D3A17-4F5F-4E11-BA71-38567564E6C9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{049F4495-4ED4-4638-A559-C5945FB602CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{09FED70A-A664-49D3-A555-595F29769EC3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImageRep", "src\ImageRep\ImageRep.csproj", "{42EFE508-2381-4D05-BAB3-E2A4030FFBFA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImageRepServiceLibrary", "src\ImageRepServiceLibrary\ImageRepServiceLibrary.csproj", "{4EF0F348-B5E9-4513-AEAF-1E9722632FCD}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "ImageRepDB", "src\ImageRepDB\ImageRepDB.sqlproj", "{91ED357B-1DD5-411E-8D20-97233EF97F5F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImageRepServiceLibraryTests", "tests\ImageRepServiceLibraryTests\ImageRepServiceLibraryTests.csproj", "{70385E7E-6E69-4958-8E72-E9FF2332BCCB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImageRepClient", "src\ImageRepClient\ImageRepClient.csproj", "{EB710A16-2C40-412A-8EB7-2AADE63E7414}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01417492-4696-4133-A5CB-A8F304BBB0A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01417492-4696-4133-A5CB-A8F304BBB0A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01417492-4696-4133-A5CB-A8F304BBB0A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01417492-4696-4133-A5CB-A8F304BBB0A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42EFE508-2381-4D05-BAB3-E2A4030FFBFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42EFE508-2381-4D05-BAB3-E2A4030FFBFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42EFE508-2381-4D05-BAB3-E2A4030FFBFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42EFE508-2381-4D05-BAB3-E2A4030FFBFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EF0F348-B5E9-4513-AEAF-1E9722632FCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EF0F348-B5E9-4513-AEAF-1E9722632FCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EF0F348-B5E9-4513-AEAF-1E9722632FCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EF0F348-B5E9-4513-AEAF-1E9722632FCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91ED357B-1DD5-411E-8D20-97233EF97F5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91ED357B-1DD5-411E-8D20-97233EF97F5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91ED357B-1DD5-411E-8D20-97233EF97F5F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{91ED357B-1DD5-411E-8D20-97233EF97F5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91ED357B-1DD5-411E-8D20-97233EF97F5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91ED357B-1DD5-411E-8D20-97233EF97F5F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{70385E7E-6E69-4958-8E72-E9FF2332BCCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70385E7E-6E69-4958-8E72-E9FF2332BCCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70385E7E-6E69-4958-8E72-E9FF2332BCCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70385E7E-6E69-4958-8E72-E9FF2332BCCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB710A16-2C40-412A-8EB7-2AADE63E7414}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB710A16-2C40-412A-8EB7-2AADE63E7414}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB710A16-2C40-412A-8EB7-2AADE63E7414}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB710A16-2C40-412A-8EB7-2AADE63E7414}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{42EFE508-2381-4D05-BAB3-E2A4030FFBFA} = {049F4495-4ED4-4638-A559-C5945FB602CB}
+		{4EF0F348-B5E9-4513-AEAF-1E9722632FCD} = {049F4495-4ED4-4638-A559-C5945FB602CB}
+		{91ED357B-1DD5-411E-8D20-97233EF97F5F} = {049F4495-4ED4-4638-A559-C5945FB602CB}
+		{70385E7E-6E69-4958-8E72-E9FF2332BCCB} = {09FED70A-A664-49D3-A555-595F29769EC3}
+		{EB710A16-2C40-412A-8EB7-2AADE63E7414} = {049F4495-4ED4-4638-A559-C5945FB602CB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7E734663-0B5E-4ACF-883E-0BBE8F5717AD}
+	EndGlobalSection
+EndGlobal
