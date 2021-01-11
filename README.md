@@ -5,11 +5,11 @@ Submission to the 2021 Shopify Solution Challenge!
 
 [Intro](https://github.com/idanielsh/ImageRep#intro)
 
-[Instalation Instructions](https://github.com/idanielsh/ImageRep#Instalation-Instructions)
+[Installation Instructions](https://github.com/idanielsh/ImageRep#Instalation-Instructions)
 
 
 # Intro
-Hi, I'm Daniel! Thank you for considering me for this role!
+Hi, I am Daniel! Thank you for considering me for this role!
 
 - This project highlights my full stack development experience. I used a C# backend with a SQL Server database and a React.js frontend to build this responsive web application.
 
@@ -27,10 +27,10 @@ Hi, I'm Daniel! Thank you for considering me for this role!
         
     - Search based on description
     
-        - Memeories associated with a certain images can be added as descriptions. We can then search for images based on particular descriptions.
+        - Memories associated with certain images can be added as descriptions. We can then search for images based on particular descriptions.
 
 
-# Instalation Instructions
+# Installation Instructions
 
 - Prerequisites
     - Visual Studio with "ASP.NET and web development" workload
